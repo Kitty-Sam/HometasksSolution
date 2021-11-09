@@ -1,0 +1,43 @@
+.all {
+    background-color:  #ededa6;
+}
+
+.message {
+    display: flex;
+}
+
+.avatar {
+    margin-top: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+
+}
+
+.timeUs {
+    position: absolute;
+    margin-left: 180px;
+    color: black;
+}
+
+.nameUs {
+    margin-left: 140px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    color: black;
+}
+
+.messageUs {
+    margin-left: 80px;
+    padding-bottom: 10px;
+}
+
+
+.textMes {
+    margin-top: 10px;
+    height: 150px;
+    width: 250px;
+    clip-path: polygon(25% 0, 100% 0%, 100% 75%, 75% 75%, 0 76%, 0 76%, 25% 57%);
+    background-color: coral;
+
+}

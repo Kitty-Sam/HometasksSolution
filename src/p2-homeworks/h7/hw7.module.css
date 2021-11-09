@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+.all{
+    background-color:  #ededa6;
+
+}
+.select, .radio {
+    width: 200px;
+    background-color: burlywood;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    margin: 0px 10px;
+    font-size: 20px;
+
+}
+.radio {
+    background-color: transparent!important;
+}
+

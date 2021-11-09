@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+
+.affairs, .filterBtn {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    border: 1px solid black;
+
+}
+
+.all {
+    background-color:  #ededa6;
+}
+.filterBtn {
+    border: none !important;
+}
+
+.btn {
+    background-color: coral;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-size: 8px;
+}

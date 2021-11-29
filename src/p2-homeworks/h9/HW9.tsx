@@ -10,10 +10,7 @@ function HW9() {
             {/*should work (должно работать)*/}
             <Clock/>
 
-            <hr/>
-            {/*для личного творчества, могу проверить*/}
-            {/*<AlternativeClock/>*/}
-            <hr/>
+
         </div>
     )
 }

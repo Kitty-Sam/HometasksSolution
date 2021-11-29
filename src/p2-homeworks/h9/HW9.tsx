@@ -3,11 +3,10 @@ import Clock from './Clock'
 
 function HW9() {
     return (
-        <div>
+        <div style={{backgroundColor: "#ededa6", fontFamily: "cursive"}}>
             <hr/>
             homeworks 9
 
-            {/*should work (должно работать)*/}
             <Clock/>
 
 

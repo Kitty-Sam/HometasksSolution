@@ -1,3 +1,39 @@
 .range {
+width: 200px;
+    -webkit-appearance: none;
+   /* -moz-appearance: none;*/
+    appearance: none;
+}
+input[type=range]::-webkit-slider-runnable-track { /*отвечает за рельсы*/
+    border-radius: 10px/100%;
+    height: 10px;
+    border: 2px solid saddlebrown;
+    background-color:  burlywood;
+}
+input[type=range]::-webkit-slider-thumb { /*отвечает за сам ползунок*/
+    background: saddlebrown;
+    border-radius: 50%;
+    border: 2px solid saddlebrown;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    -webkit-appearance: none;
+    margin-top: -4px;
 
 }
+
+/*
+для мозилы
+
+input[type=range]::-moz-range-track {
+    border-radius: 10px/100%;
+    height: 5px;
+    border: 1px solid cyan;
+    background-color: #fff;
+}
+input[type=range]::-moz-range-thumb {
+    background: #ecf0f1;
+    border-radius: 10px/100%;
+    border: 1px solid cyan;
+    cursor: pointer;
+}*/
